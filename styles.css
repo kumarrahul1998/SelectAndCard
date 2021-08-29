@@ -89,3 +89,27 @@ nav ul li {
 .btn-3{
     color: #00403F;
 }
+
+@media (max-width:540px){
+    .container{
+        height: auto;
+    }
+    .row{
+        width:90%;
+        flex-direction: column;
+    }
+    .col{
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .col-1{
+        border-radius: 1rem 1rem 0 0;
+    }
+    .col-3{
+        border-radius: 0 0 1rem 1rem;
+    }
+    
+}
